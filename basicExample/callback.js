@@ -19,6 +19,11 @@ function three() {
 // invoke one() and pass two() as an argument
 one(two);
 
+// OUTPUT
+// One
+// Two
+// Three
+
 // Another example
 
 console.log('1');
@@ -26,3 +31,8 @@ setTimeout(() => {
     console.log('2');
 }, 3000);
 console.log('3');
+
+// OUTPUT
+// 1
+// 3
+// 2
